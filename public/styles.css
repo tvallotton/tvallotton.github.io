@@ -5,10 +5,12 @@
 
 .black.square {
     background-color: rgb(165, 165, 165);
+
 }
 
 .white.square {
     background-color: rgb(233, 233, 233);
+
 }
 
 .board-row {
@@ -23,28 +25,27 @@
 }
 
 .piece.white {
-    color: white; 
-    font-size:xx-large;
-    
+    color: white;
+    font-size: xx-large;
+
 }
 
 .highlighted.white.square {
-    background-color: #e2c9c9;
+    background-color: #c9e2df;
 }
 
 .highlighted.black.square {
-    background-color: #c3b0b0
+    background-color: #b0c3c1;
 }
 
 .selected.black.square {
-    background-color: rgb(255, 255, 255);
+    background-color: #b0b0c3;
 }
 
 .selected.white.square {
-    background-color: rgb(255, 255, 255);
-    
-}
+    background-color: #c9c9e2;
 
+}
 
 
 
@@ -56,4 +57,21 @@
     width: 15px;
     margin-top: 17px;
     margin-left: 17px;
+}
+
+/* .menu-button:hover {
+    background-color: white;
+    color: white;
+    border-color: skyblue;
+} */
+
+
+
+.menu-container {
+    height: 100%;
+
+}
+
+body {
+    background-color: rgb(var(--bs-dark-rgb));
 }
